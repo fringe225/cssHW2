@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#Navbar{
+    overflow: auto;
+    padding: 20px 4rem;
+    position:fixed;
+    width: 100%;
+    
+}
+
+.left{
+    float:left;
+}
+
+.left a{
+    color: #ffc800;
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.right{
+    float:right;
+    padding-top:5px;
+}
+
+.right a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.right a:hover{
+    color:#ffc800;
+}
+
+#slider{
+    background-image: url(../photo/header-bg.jpg);
+    background-position: center ;
+    background-size: cover;
+    padding: 22rem 0;
+    text-align: center;
+}
+
+#slider a{
+ 
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #cca000;
+    border-color: #bf9600;
+    
+}
+#slider h4{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#slider h2{
+    margin-bottom: 64px;
+    font-size: 72px;
+    color: #fff;
+}
+
+#services{
+    padding: 6rem 0;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+
+.services-text{
+    text-align:center;
+}
+
+.services-text h2{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.services-text p{
+    font-size: 1rem;
+    line-height: 1.75;;
+    font-style: italic;
+}
+
+.services-box{
+    width: 100%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.s-box-img img{
+    width: 150px;
+    height:120px;
+    margin-left:30px;
+}
+.s-box{
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.s-box-text h4{
+    font-size:24px;
+    font-size: calc(1.275rem + 0.3vw);
+    font-weight: 700;
+    margin:1rem 0;
+}
+
+.s-box-text p{
+    color: #6c757d;
+    line-height: 1.75;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.s-box-text{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#portfolio{
+    padding: 6rem 0;
+    width: 100%;
+    height: 1100px;
+    margin: auto;
+    background-color:#f8f9fa;
+    text-align: center;  
+}
+
+.p-text h2{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+} 
+
+.p-text p{
+    font-size: 1rem;
+    line-height: 1.75;;
+}
+
+.portfolio-box{
+    width: 90%;
+    margin:0px auto
+}
+
+.p-box{
+    float: left;
+    width:30%;
+    margin:10px 1rem;
+    background-color: #fff; 
+    font-size: 1.5rem;
+    font-weight: 700;  
+    transition: 1s;
+}
+
+.p-box img{
+    width: 100%;  
+}
+
+.p-box h4{
+    font-size: calc(1.275rem + 0.3vw);
+    font-weight: 700;
+    margin:1rem 0;
+}
+.p-box p{
+    color: #6c757d;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+#about{
+    padding: 6rem 0;
+    text-align: center;
+}
+
+#team{
+    text-align: center;
+    padding: 6rem 0;
+    height: 800px;
+    background-color: #f8f9fa;
+}
+#team-list{
+    width: 90%;
+    margin: 0 auto;
+}
+.member img{
+   width: 14rem;
+   border: 8px solid rgba(0, 0, 0, 0.1);
+   border-radius: 50%;
+}
+.member{
+    float: left;
+    margin:30px 85px 0 85px;
+}
+.member p{
+    color:#6c757d;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+#icon button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #212529;
+    border: 1px solid #212529;
+    color: #fff;
+}
+#last{
+    float:left;
+    padding-top: 30px;
+    width: 95%;
+    margin: 0 auto;
+    color: #6c757d;
+    line-height: 1.75;
+}
+#sponsor{
+    width: 90%;
+    padding:3rem 0;
+    align-items: center;
+    height: 150px;
+    margin:0 auto;
+}
+.marka{
+    float: left;
+    width: 22.5%;
+    margin-left:30px;   
+}
+.marka img{
+    height: 50px;
+}
+#contact{
+    text-align: center;
+    background-color: #212529;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+#contact h1{
+    color:#fff 
+}
+#contact button{
+    padding:20px 40px;
+    border-radius: 5px;
+    background-color: #ffc800;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.95rem; 
+    border: 1px solid #ffc800;
+    margin-top: 30px;
+}
+#left input{
+    padding:20px 18rem 20px 10px;
+    width: 40%;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border:1px solid #ced4ca;
+
+}
+#left input:focus{
+    outline-color: #ffc800;
+}
+#right textarea{
+    padding: 10px;
+    width: 300px;
+    height: 230px;
+    resize: none;
+    border-radius: 4px;
+    border:1px solid #ced4ca;
+}
+#right textarea:focus{
+    outline-color: #ffc800;
+}
+#copyright{
+    padding: 40px 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+#copyright-l{
+    margin-left: 40px;
+}
+#list{
+    list-style: none;
+    display: flex;
+}
+#list a{
+    margin-left: 20px;
+    padding-right: 20px;
+    color: #000;
+}
